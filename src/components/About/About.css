@@ -1,0 +1,43 @@
+.about-container {
+    background-color: #474B4F;
+    display:flex;
+    flex-direction:column;
+    width:90%;
+    margin-bottom:5%;
+    padding:30px;
+}
+
+.about-title {
+    margin-top:0px;
+    color:#86C232;
+    font-size:30px;
+}
+
+.about-content-container {
+    display:flex;
+    align-items:center;
+}
+
+.about-content {
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.code-icon {
+    color:#61892F;
+    font-size:100px;
+}
+
+.about-description {
+    color:#FFFFFF;
+    font-size:23px;
+}
+
+@media screen and (max-width: 768px){
+    .code-icon {
+        display:none;
+    }
+
+
+   
+}

@@ -1,0 +1,17 @@
+.projects-container {
+    display:flex;
+    flex-direction:column;
+    width:90%;
+    padding:30px;
+    margin-bottom:5%;
+}
+
+.projects-title {
+    margin-top:0px;
+    color:#86C232;
+    font-size:30px;
+}
+
+.projects-card {
+    background-color:#474B4F;
+}

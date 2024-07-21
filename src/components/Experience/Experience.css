@@ -1,0 +1,69 @@
+.experience-container {
+    display:flex;
+    flex-direction:column;
+    width:90%;
+    margin-bottom:5%;
+    padding:30px;
+}
+
+.company-cards-container {
+    display:flex;
+}
+
+.experience-title {
+    margin-top:0px;
+    color:#86C232;
+    font-size:30px;
+}
+
+.company-experience-card {
+    display:flex;
+    margin-bottom:20px;
+    width:50%;
+}
+
+.company-experience-content-container {
+    display:flex;
+    flex-direction:column;
+}
+
+.company-logo {
+    width:50px;
+    height:50px;
+    margin-right:20px;
+}
+
+.company-experience-title {
+    margin:0px;
+    color:#86C232;
+    font-size:22px;
+    font-weight:500;
+}
+
+.company-experience-duration {
+    color:#FFFFFF;
+    font-size:15px;
+    font-weight:100;
+    margin-top:0px;
+    margin-bottom:4px;
+}
+
+.company-experience-description {
+    color:#FFFFFF;
+    font-size:16px;
+    font-weight:400;
+    margin-top:0px;
+    padding-left:20px;
+    width:90%;
+}
+
+@media screen and (max-width:992px) {
+    
+    .company-cards-container {
+        flex-direction:column;
+    }
+    
+    .company-experience-card {
+        width:100%;
+    }
+}

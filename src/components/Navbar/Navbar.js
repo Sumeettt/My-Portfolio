@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <a href="/" className="title">Portfolio</a>
+      <a href="/" className="navbar-title">Portfolio</a>
       <div className="menu">
         <i className={`fa-solid menu-icon ${menuOpen ? "fa-xmark" : "fa-bars" }`}
           onClick={() => setMenuOpen(!menuOpen)}
@@ -17,6 +17,9 @@ const Navbar = () => {
           >
           <li>
             <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
           </li>
           <li>
             <a href="#projects">Projects</a>
