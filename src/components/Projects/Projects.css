@@ -28,16 +28,18 @@
 }
 
 .projects-card-img {
-    height:auto;
+    height:200px;
     width:100%;
     object-fit:cover;
+    filter: grayscale(30%);
 }
 
 .project-name {
     color:#86C232;
     font-size:25px;
     font-weight:600;
-    margin:0px;
+    margin-top:5px;
+    margin-bottom:0px;
 }
 
 .project-description {
@@ -98,3 +100,4 @@
         align-items:center;
     }
 }
+

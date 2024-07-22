@@ -60,6 +60,7 @@
     .hero-container {
         flex-direction: column-reverse;
         width:95%;
+        margin-top:15%;
     }
 
     .hero-content {
@@ -87,5 +88,6 @@
     .img {
         width:60%;
         height:auto;
+        border:6px solid #474B4F; 
     }
 }

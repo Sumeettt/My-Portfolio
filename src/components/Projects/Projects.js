@@ -6,7 +6,7 @@ const Projects = () => {
             <h2 className="projects-title">PROJECTS</h2>
             <div className="projects-cards-container">
                 <div className="projects-card">
-                  <img src="../assets/code-img.png" className="projects-card-img" alt="code-img"/>
+                  <img src="../assets/netflix-web-img.png" className="projects-card-img" alt="netflix-web-img"/>
                   <h3 className="project-name">NetflixWeb</h3>
                   <p className="project-description">Created a video streaming app resembling Netflix with a strong focus on frontend development, fetching real-time data from TMDb's API.</p>
                   <div className="tech-stack-container">
@@ -20,7 +20,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className="projects-card">
-                  <img src="../assets/code-img.png" className="projects-card-img" alt="code-img"/>
+                  <img src="../assets/food-web-img.png" className="projects-card-img" alt="food-web-img"/>
                   <h3 className="project-name">FoodWeb</h3>
                   <p className="project-description">Created a food ordering app with a strong emphasis on frontend development, fetching real-time data from Swiggy's API.</p>
                   <div className="tech-stack-container">
