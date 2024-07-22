@@ -22,7 +22,7 @@ const Contact = () => {
             </li>
             <li>
                 <i className="fa-solid fa-file"></i>
-                <a href="https://drive.google.com/file/d/1aWqX237qhLtGNOAy_5pgmivroAPolWjD/view?usp=drive_link" target="_blank" rel="noopener noreferrer">View My Resume</a>
+                <a href="https://drive.google.com/file/d/131MoAw3DDMUw-fy-ubzQZEt_69ZNpUhZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">View My Resume</a>
             </li>
         </ul>
     </footer>
