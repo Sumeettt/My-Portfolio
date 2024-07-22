@@ -20,6 +20,10 @@ const Contact = () => {
                 <i class="fa-brands fa-github"></i>
                 <a href="https://github.com/Sumeettt" target="_blank" rel="noopener noreferrer">github.com/Sumeettt</a>
             </li>
+            <li>
+                <i className="fa-solid fa-file"></i>
+                <a href="https://drive.google.com/file/d/1aWqX237qhLtGNOAy_5pgmivroAPolWjD/view?usp=drive_link" target="_blank" rel="noopener noreferrer">View My Resume</a>
+            </li>
         </ul>
     </footer>
   )
