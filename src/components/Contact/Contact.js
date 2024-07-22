@@ -13,11 +13,11 @@ const Contact = () => {
                 <a href="mailto:sumeetp987@gmail.com">sumeetp987@gmail.com</a>
             </li>
             <li>
-                <i class="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin"></i>
                 <a href="https://www.linkedin.com/in/sumeet-parmar-93b0301b8/" target="_blank" rel="noopener noreferrer">linkedin.com/in/sumeet-parmar-93b0301b8/</a>
             </li>
             <li>
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
                 <a href="https://github.com/Sumeettt" target="_blank" rel="noopener noreferrer">github.com/Sumeettt</a>
             </li>
             <li>

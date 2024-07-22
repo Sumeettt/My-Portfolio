@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar" id="/">
-      <a href="/" className="navbar-title">Portfolio</a>
+      <a href="/" className="navbar-title">Home</a>
       <div className="menu">
         <i className={`fa-solid menu-icon ${menuOpen ? "fa-xmark" : "fa-bars" }`}
           onClick={() => setMenuOpen(!menuOpen)}
