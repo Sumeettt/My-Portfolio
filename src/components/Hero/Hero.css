@@ -3,7 +3,7 @@
     display:flex;
     align-items:center;
     justify-content:space-between;
-    margin-top:5%;
+    margin-top:7%;
     margin-bottom:5%;
     padding:30px;
 }
@@ -46,7 +46,7 @@
     width:350px;
     border-radius:50%;
     object-fit:cover;
-    filter: grayscale(10%);
+    filter: grayscale(30%);
     border:10px solid #474B4F; 
     transition: transform 0.3s;
 }
@@ -58,7 +58,8 @@
 
 @media screen and (max-width: 768px) {
     .hero-container {
-        flex-direction: column-reverse ;
+        flex-direction: column-reverse;
+        width:95%;
     }
 
     .hero-content {

@@ -2,7 +2,7 @@ import "./Skills.css"
 
 const Skills = () => {
   return (
-    <section className="skills-container">
+    <section className="skills-container" id="skills">
         <h2 className="skills-title">SKILLS</h2>
         <div className="skiils-cards-container">
             <div className="skills-card">
@@ -15,7 +15,7 @@ const Skills = () => {
             </div>
             <div className="skills-card">
                 <img className="skills-logo" src="../assets/javascript-logo.png" alt="javascript-logo"/>
-                <h3 className="skills-name">JAVASCRIPT</h3>
+                <h3 className="skills-name">JavaScript</h3>
             </div>
             <div className="skills-card">
                 <img className="skills-logo" src="../assets/react-logo.png" alt="react-logo"/>

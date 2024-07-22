@@ -3,6 +3,7 @@
     flex-direction:column;
     width:90%;
     padding:30px;
+    margin-bottom:2%;
 }
 
 .skills-title {
@@ -35,6 +36,10 @@
 }
 
 @media screen and (max-width:992px) {
+    .skills-container {
+        width:95%;
+    }
+
     .skiils-cards-container {
         justify-content:center;
     }

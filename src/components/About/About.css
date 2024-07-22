@@ -34,6 +34,10 @@
 }
 
 @media screen and (max-width: 768px){
+    .about-container {
+        width:95%;  
+    }
+
     .code-icon {
         display:none;
     }

@@ -2,7 +2,7 @@ import "./Experience.css"
 
 const Experience = () => {
   return (
-    <section className="experience-container">
+    <section className="experience-container" id="experience">
         <h2 className="experience-title">EXPERIENCE</h2>
         <div className="company-cards-container">
             <div className="company-experience-card">
@@ -13,7 +13,7 @@ const Experience = () => {
                     <ul className="company-experience-description">
                         <li>Numerator is a market research firm that provides consumer insights and marketing intelligence to companies across various industries.</li>
                         <li>Collected and analyzed data sets using MS Excel and developed dashboards to track KPIs and other metrics.</li>
-                        <li>Collaborated with team leaders to understand requirements and manage work allocation within the team.</li>
+                        <li>Collaborated with team leader to understand requirements and manage work allocation within the team.</li>
                     </ul>
                 </div>
             </div>

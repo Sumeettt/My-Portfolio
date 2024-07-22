@@ -6,7 +6,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" id="/">
       <a href="/" className="navbar-title">Portfolio</a>
       <div className="menu">
         <i className={`fa-solid menu-icon ${menuOpen ? "fa-xmark" : "fa-bars" }`}
